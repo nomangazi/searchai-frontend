@@ -13,7 +13,7 @@ const FooterSection = () => {
             LinkedIn
           </a>
         </div>
-        <p>&copy; 2024 Face Search AI. All rights reserved.</p>
+        <p>&copy; 2024 Face Match AI. All rights reserved.</p>
       </div>
     </footer>
   );

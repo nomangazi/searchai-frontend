@@ -6,12 +6,12 @@ const PricingSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="plan bg-gray-100 p-6 rounded-lg shadow-md">
             <h4 className="text-2xl font-bold mb-4">Free</h4>
-            <p className="mb-4">3 searches per day - $0/month</p>
+            <p className="mb-4">3 matches per day - $0/month</p>
             <button className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md">Start Free Trial</button>
           </div>
           <div className="plan bg-gray-100 p-6 rounded-lg shadow-md">
             <h4 className="text-2xl font-bold mb-4">Pro</h4>
-            <p className="mb-4">Unlimited searches - $9.99/month</p>
+            <p className="mb-4">Unlimited matches - $9.99/month</p>
             <button className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md">Subscribe Now</button>
           </div>
         </div>

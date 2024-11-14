@@ -9,7 +9,7 @@ const FeaturesSection = () => {
             <p>State-of-the-art face detection using the latest AI technology.</p>
           </div>
           <div className="feature bg-white p-6 rounded-lg shadow-md">
-            <h4 className="text-xl font-bold mb-3">Fast and Accurate Search</h4>
+            <h4 className="text-xl font-bold mb-3">Fast and Accurate Match </h4>
             <p>Get results in seconds and experience fast, reliable performance.</p>
           </div>
           <div className="feature bg-white p-6 rounded-lg shadow-md">
