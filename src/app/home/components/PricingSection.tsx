@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const PricingSection = () => {
   return (
     <div id="pricing" className="pricing py-16 bg-white">
@@ -7,12 +9,16 @@ const PricingSection = () => {
           <div className="plan bg-gray-100 p-6 rounded-lg shadow-md">
             <h4 className="text-2xl font-bold mb-4">Free</h4>
             <p className="mb-4">3 matches per day - $0/month</p>
-            <button className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md">Start Free Trial</button>
+            <Link to={`/checkout/free`} className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md">
+              Start Free Trial
+            </Link>
           </div>
           <div className="plan bg-gray-100 p-6 rounded-lg shadow-md">
             <h4 className="text-2xl font-bold mb-4">Pro</h4>
             <p className="mb-4">Unlimited matches - $9.99/month</p>
-            <button className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md">Subscribe Now</button>
+            <Link to={`/checkout/pro`} className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md">
+              Subscribe Now
+            </Link>
           </div>
         </div>
       </div>
